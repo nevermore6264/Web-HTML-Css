@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Gallery</title>
+		<meta charset="utf-8" />
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<link href="css/style.css" rel="stylesheet"/>
+		<link rel="shortcut icon" href="images/ico.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/style1.css" />
+		<link rel="stylesheet" href="css/default-five-slides.css" type="text/css" />
+		<link rel="stylesheet" href="css/galerry.css" type="text/css" media="screen" />
+		<script src="js/jquery.flexslider-min.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+		<script src="js/kwiks.js"></script>
+	<script src="js/gallery.js"></script>
+	<script>
+			$(document).ready(function(){
+				$("#loading-wrap").fadeOut(1000, function(){ // cho the loading xoay 1 giay sau do bien mat => callback
+					$("#loading-wrap").remove();
+				})
+				$("#wrap").fadeIn(1000); //1 giay sau do the wrap noi len
+			})
+		</script>
+	
+</head>
+<body>
+<div id="loading-wrap"><img src="images/loading1.gif"></div>
+
+		<div id="wrap">
+		<header>
+				<nav >
+				<ul id="nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="product.html" >Product</a></li>
+				<li><a href="gallery.html" class="current">Gallery</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				</ul>
+				</nav>
+			<div class="logo">
+			<a href=""><img src="images/logo.PNG"/></a>
+			</div>
+		</header>
+		
+		<section class="gallery">
+			
+			<div id="container">
+		
+		<div class="flexslider">
+			<ul class="slides">
+				<li>
+					<img src="images/1.jpg" />
+					<div class="flex-caption">
+						<h3>ROUGE ALLURE </h3>
+						<p></p>
+					</div>
+				</li>
+				<li>
+					<img src="images/2.jpg" />
+					<div class="flex-caption">
+						<h3>ROUGE COCO SHINE</h3>
+				
+					</div>
+				</li>
+				
+				<li>
+					<img src="images/3.jpg" />
+					<div class="flex-caption">
+						<h3>ROUGE ALLURE VELVET</h3>
+						<p></p>
+					</div>
+				</li>
+				
+				<li>
+					<img src="images/4.jpg" />
+					<div class="flex-caption">
+						<h3>AQUALUMIÈRE GLOSS</h3>
+						<p></p>
+					</div>
+				</li>
+				<li>
+					<img src="images/5.jpg" />
+					<div class="flex-caption">
+						<h3>ROUGE COCO</h3>
+						<p></p>
+					</div>
+				</li>
+			</ul>
+	  </div>
+	</div>
+	<span id="responsiveFlag"></span>
+			
+		<div class="border"></div>
+		<div class="ga">
+			<img src="images/1.jpg"/>
+			<div class="ga_inf">
+			<h2>Rouge Allure</h2><br>
+			<p>The next generation of ROUGE ALLURE dresses 
+						lips with unmistakable attitude. A new formula
+						with concentrated, ultra-thin pigments offers 
+						radically intense, long-wearing colour with full 
+						coverage and a satin finish. Leaves lips supple 
+						and protected with lasting comfort.</p>
+			</div>
+		</div>
+		
+		<div class="ga">
+			<img src="images/2.jpg"/>
+			<div class="ga_inf">
+			<h2>Rouge Coco Shine</h2><br>
+			<p>The next chapter in the brilliant 
+						ROUGE COCO SHINE story: ROUGE COCO 
+						SHINE Hydrating Colour Lipshine, 
+						an innovative formula with intensified 
+						pigments to take colour and sheen to a 
+						new level of vibrancy. Sheer, shiny, 
+						colour-rich shades are effortlessly chic, 
+						infinitely wearable.</p>
+			</div>
+		</div>
+		
+		<div class="ga">
+			<img src="images/3.jpg"/>
+			<div class="ga_inf">
+			<h2>Rouge Allure Velet</h2><br>
+			<p>Elevating matte to a new elegance, 
+						this next-generation, non-drying matte 
+						lipstick glides on lips with intensely rich,
+						long-wearing colour and a sumptuously soft, 
+						velvet matte finish.</p>
+			</div>
+		</div>
+		
+		<div class="ga">
+			<img src="images/4.jpg"/>
+			<div class="ga_inf">
+			<h2>Aqulummiere Gloss</h2><br>
+			<p>Brush on the exquisite, water-light look of 
+						this ingenious lipgloss and discover perfect 
+						comfort in a sheer wash of colour. Making 
+						this a must-have for every lipgloss lover: 
+						a mirror-like shine that gives lips a fuller, 
+						more sensual look with the precision and ease 
+						of the built-in brush applicator.</p>
+			</div>
+		</div>
+		
+		<div class="ga">
+			<img src="images/5.jpg"/>
+			<div class="ga_inf">
+			<h2>Rouge Coco</h2><br>
+			<p>A modern interpretation of classic 
+						creme lip colour as an homage to the 
+						rich life and legacy of 'Coco' Chanel. 
+						Lightweight lip colour glides on for easy 
+						application, and features a Hydratendre 
+						complex to help soften, soothe and condition 
+						lips - even boosting their ability to hold in
+						moisture - for a plumper.</p>
+			</div>
+		</div>
+     <!--<article class="fullwidth gallery">
+          <h3>Gallery</h3>
+          <a class="fancyimage" href="images/gallery/1.jpeg"><img src="images/gallery/1.jpeg" width="200" height="200" alt="" /></a> 
+		  <a class="fancyimage" href="images/gallery/2.jpg"><img src="images/gallery/2.jpg" width="200" height="200" alt="" /></a> 
+		  <a class="fancyimage" href="images/gallery/3.jpeg"><img src="images/gallery/3.jpeg" width="200" height="200" alt="" /></a> 
+		  <a class="fancyimage" href="images/gallery/4.jpg"><img src="images/gallery/4.jpg" width="200" height="200" alt="" /></a> 
+		  <a class="fancyimage" href="images/gallery/5.jpeg"><img src="images/gallery/5.jpeg" width="200" height="200" alt="" /></a> 
+		  <a class="fancyimage" href="images/gallery/6.jpg"><img src="images/gallery/6.jpg" width="200" height="200" alt="" /></a> 
+		  <a class="fancyimage" href="images/gallery/7.jpeg"><img src="images/gallery/7.jpeg" width="200" height="200" alt="" /></a> 
+		  <a class="fancyimage" href="images/gallery/8.jpg"><img src="images/gallery/8.jpg" width="200" height="200" alt="" /></a> </article>	-->
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+				</section>
+			<footer>
+				<div class="border"></div>
+				<p>Copy right &copy; Diepham</p>
+				<p>391 Nam Ky Khoi Nghia Street, Ward 7, District 3, HCMC</p>
+				<a href="https://www.facebook.com/"><img src="images/Facebook-icon.png"/></a>
+				<a href="https://www.flickr.com/"><img src="images/Flickr-icon.png"/></a>
+				<a href="https://plus.google.com/"><img src="images/Google-Plus-icon.png"/></a>
+				<a href="http://instagram.com/"><img src="images/Instagram-icon.png"/></a>
+				<div class="border1"></div>
+				</footer>
+		</div>
+</body>
+</html>

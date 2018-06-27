@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Welcome to Lipstick store</title>
+		<link href="css/style.css" rel="stylesheet"/>
+		<link href="css/demo.css" rel="stylesheet"/>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style1.css" />
+		<link rel="shortcut icon" href="images/ico.ico"> 
+		<meta name="author" content="Codrops" />
+		<script src="js/modernizr.custom.63321.js"></script>
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<!--<script type="text/javascript" src="http://www.starplugins.com/sites/starplugins/js/cloudzoom/cloudzoom.js?v=20"></script>-->
+		<script src="js/cloudzoom.js"></script>
+		<script src="js/jquery.catslider.js"></script>
+		 <script>
+        $(function () {
+            $("div.pro").hover(function () {
+                // mouse over
+                $(this).find(".inf").stop().animate({ bottom: '0px', opacity: 1 });
+            }, function () {
+                // mouse out
+                $(this).find(".inf").stop().animate({ bottom: '-70px', opacity: 0 });
+            });
+        });
+    </script>
+		
+		<script>
+			$(document).ready(function(){
+				$("#loading-wrap").fadeOut(1000, function(){ // cho the loading xoay 1 giay sau do bien mat => callback
+					$("#loading-wrap").remove();
+				})
+				$("#wrap").fadeIn(1000); //1 giay sau do the wrap noi len
+			})
+		</script>
+		
+</head>
+<body>
+	<div id="loading-wrap"><img src="images/loading1.gif"></div>
+		<div id="wrap">
+		<header>
+				<nav >
+				<ul id="nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="product.html"class="current" >Product</a></li>
+				<li><a href="about.html" >Gallery</a></li>
+				<li><a href="about.html" >About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				</ul>
+				</nav>
+			<div class="logo">
+			<a href=""><img  src="images/logo.PNG"/></a>
+			</div>
+		</header>
+		<div class="border"></div>
+		<section class="inf">
+		<div class="inf">
+		<div id="feat">
+		<div class="image-wrap">
+		<img class="cloudzoom" src="images/zoom1.jpg" data-cloudzoom="
+		zoomImage:'images/zoom.jpg',zoomSizeMode: 'image'" alt="#">
+		</div></div>
+		<div class="info">
+			<h3>ROUGE COCO<br>
+			<span>$35.00</span></h3>
+			<br>
+			<div class="shader"><img src="images/shaders.png"/></div>
+			<div class="i">
+			<p><span>Description</span><br>
+			A modern interpretation of classic creme lip colour as an homage to the rich 
+			life and legacy of 'Coco' Chanel. Lightweight lip colour glides on for easy 
+			application, and features a Hydratendre complex to help soften, soothe and 
+			condition lips - even boosting their ability to hold in moisture - for a plumper, 
+			smoother and healthier-looking appearance. A range of wearable shades with 
+			full-coverage finishes, from matte to pearl to soft shimmer.</p>
+			</div>
+			
+			<aside class="cart">
+			<table>
+			<tr><td>Number</td>
+			<td><input list="html" name="1" />
+				<datalist id="html">
+				<option value="1"></option>
+				<option value="2"></option>
+				<option value="3"></option>
+				<option value="4"></option>
+				<option value="5"></option>
+				<option value="6"></option>
+				<option value="7"></option>
+				<option value="8"></option>
+				<option value="9"></option>
+				<option value="10"></option>
+				<option value="11"></option>
+				<option value="12"></option>
+				<option value="13"></option>
+				<option value="14"></option>
+				<option value="15"></option>
+				<option value="16"></option>
+				<option value="17"></option>
+				<option value="18"></option>
+				<option value="19"></option>
+				<option value="20"></option>
+				</datalist></td></tr></table>
+			<br><p></p>
+			<div class="buy"><img src="images/Shopping-Cart-icon.png"/><a href="#">Buy</a></div>
+			
+			</aside>
+		</div>
+		</div>
+		<div class="border1"></div>
+		<div class="model">
+			<div class="feat">
+			<div class="image-wrap">
+			<img class="cloudzoom" src="images/m11.jpg" data-cloudzoom="
+			zoomImage:'images/m11.jpg',zoomSizeMode: 'image'" alt="#">
+			</div>
+			</div>
+			<div class="mbox">
+			<p>Do you want to know how to choose the best lipstick color? 
+			Do you want the perfect shades that works for any makeup look? 
+			Have you purchased lipsticks you thought would work for you and 
+			then once you opened them up and tried them on you found out they 
+			were wrong? If so, you’re not alone. Choosing lip makeup colors 
+			doesn’t have to be a chore and you don’t have to waste money on 
+			products that don’t work. There’s a simple model method that you 
+			can use to get the perfect color every single time.</p>
+			</div>
+			
+			
+			</div>
+			
+			
+			
+		<div class="opro">	
+		<h2>Other Products</h3>
+			<div class="o1"><a href="info.html"><img src="images/di1.png"/></div>
+			<div class="o1"><a href="info.html"><img src="images/cn4.jpg"/></a></div>
+			<div class="o1"><a href="info.html"><img src="images/cn1.jpg"/></a></div>
+			<div class="o1"><a href="info.html"><img src="images/di4.jpg"/></a></div>
+		</div>
+
+		</section>
+		<footer>
+		<div class="border"></div>
+		<p>Copy right &copy; Diepham</p>
+		<p>391 Nam Ky Khoi Nghia Street, Ward 7, District 3, HCMC</p>
+		<a href="https://www.facebook.com/"><img src="images/Facebook-icon.png"/></a>
+		<a href="https://www.flickr.com/"><img src="images/Flickr-icon.png"/></a>
+		<a href="https://plus.google.com/"><img src="images/Google-Plus-icon.png"/></a>
+		<a href="http://instagram.com/"><img src="images/Instagram-icon.png"/></a>
+		<div class="border1"></div>
+		</footer>
+		
+<script type="text/javascript">
+CloudZoom.quickStart(); 
+</script>
+</body>
+</html>

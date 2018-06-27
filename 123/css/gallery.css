@@ -1,0 +1,5 @@
+
+#container {width: 80%; max-width: 800px; margin: 0 auto;}
+#container h2 {padding: 20px 0 30px; font-size: 18px; line-height: 22px; font-style: italic;}
+#container h2 a {text-decoration: none; color: #427f9e;}
+#container h2 a:hover {border-bottom: 1px dotted #427f9e;}

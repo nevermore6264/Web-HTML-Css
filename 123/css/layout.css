@@ -1,0 +1,34 @@
+#wrap{
+	width:960px;
+	height:1000px;
+	background:gray;
+	margin:0 auto;
+	color:white;
+}
+header{
+width:100%;
+height:200px;
+background:green;
+}
+.b1{
+width:80%;
+height:100%;
+background:#333;
+float:left;
+}
+.b2{
+float:right;
+width:20%;
+height:100%;
+background:pink;
+}
+section{
+width:100%;
+height:700px;
+background: #666;
+}
+footer{
+width:100%;
+height:100px;
+background:red;
+}
